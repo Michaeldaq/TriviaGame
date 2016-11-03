@@ -6,13 +6,26 @@
 	</head>
 	<body>
 		<header> 
-			<h1>NerdCulture Trivia</h1>
+			<h1 class = 'title'>NerdCulture Trivia</h1>
 		</header>
 		<div class = "container">
-		<div class = "question">
-		<button class= "start">Start Game</button>
-		</div>
-		</div>
+			<div class = "question">
+				<div class = "timer">60:00</div>
+				<p>1. What is Captain America's Shield made out of in the MCU?</p> 
+					<input type = "radio" name = "metal" value = "Vibranium"><label for='Vibranium'>Vibranium</label><br>
+					<input type = "radio" name = "metal" value = "Adamantium"><label for='Adamantium'>Adamantium</label><br>
+					<input type = "radio" name = "metal" value = "Both"><label for="Both">Both</label><br>
+					<input type = "radio" name = "metal" value = "Mithril"><label for="Mithril">Mithril</label><br>
+			<br>
+				<p>2. Who or what is found inside of the caccoon in the Collectors in Guardian of the Galaxy</p> 
+					<input type = "radio" name = "person" value = "Quicksilver"><label for='Quicksilver'>Quicksilver</label><br>
+					<input type = "radio" name = "person" value = "Howard"><label for='Howard'>Howard the Duck</label><br>
+					<input type = "radio" name = "person" value = "Galactus"><label for="Galactus">Galactus</label><br>
+					<input type = "radio" name = "person" value = "Adam"><label for="Adam">Adam Warlock</label><br>
+					<br>
+			<button class= "submit">Submit</button>
+			</div>
+			</div>
 		<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
 		<script src="assets/javascript/app.js"></script>
 	</body>
